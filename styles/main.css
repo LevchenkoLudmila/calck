@@ -1,0 +1,26 @@
+.wrapper-calck{
+    width: 251px;
+    height: 551px;
+    border:#2b0a69 solid 10px;
+    border-radius: 10px;
+}
+/*.do-calc{
+    width: 235px;
+    height: 150px;
+    background-color: #7fffd4;
+    color: #000000;
+    border:#000000 solid 2px;
+    box-shadow: #c2c2c2 1 px 2px;
+    border-radius: 10px;
+}*/
+.input{
+    width: 235px;
+    height: 150px;
+    background-color: #7fffd4;
+}
+.grid-body{
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+    
+}
