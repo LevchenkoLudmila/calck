@@ -1,34 +1,34 @@
-//экран
-const out = document.querySelector ('.input'); 
+//инпут-окно-вывод 
+const inputOut = document.querySelector ('.input'); 
 console.log (out);
 //плюс
-const doPlas = document.querySelector ('.submit-p');
+const buttonPlas = document.querySelector ('.submit-p');
 console.log (doPlas);
 //минус
-const doRavno = document.querySelector ('.submit-r');
+const buttonRavno = document.querySelector ('.submit-r');
 console.log (doRavno);
 
 //кнопки
-const text0 = document.querySelector ('.text0');
-console.log (text0);
-const text1 = document.querySelector ('.text1');
-console.log (text1);
-const text2 = document.querySelector ('.text2');
-console.log (text2);
-const text3 = document.querySelector ('.text3');
-console.log (text3);
-const text4 = document.querySelector ('.text4');
-console.log (text4);
-const text5 = document.querySelector ('.text5');
-console.log (text5);
-const text6 = document.querySelector ('.text6');
-console.log (text6);
-const text7 = document.querySelector ('.text7');
-console.log (text7);
-const text8 = document.querySelector ('.text8');
-console.log (text8);
-const text9 = document.querySelector ('.text9');
-console.log (text9);
+const button0 = document.querySelector ('.text0');
+console.log (button0);
+const button1 = document.querySelector ('.text1');
+console.log (button1);
+const button2 = document.querySelector ('.text2');
+console.log (button2);
+const button3 = document.querySelector ('.text3');
+console.log (button3);
+const button4 = document.querySelector ('.text4');
+console.log (button4);
+const button5 = document.querySelector ('.text5');
+console.log (button5);
+const button6 = document.querySelector ('.text6');
+console.log (button6);
+const button7 = document.querySelector ('.text7');
+console.log (button7);
+const button8 = document.querySelector ('.text8');
+console.log (button8);
+const button9 = document.querySelector ('.text9');
+console.log (button9);
 
 
 let a = ''; //1 число
@@ -45,7 +45,7 @@ function clearAll (){
   let b = '';//2 число
   let opereytion = '';// операция
   finish = false;
-  out.value = 0;
+  inputOut.value = 0;
 }
 
 //сброс
